@@ -1,9 +1,9 @@
-// function changeHtml(data) {
-//     let text = document.getElementById("text");
-//     let img = document.getElementById("imgSrc");
-//     img.setAttribute("imgSrc", data.imgSrc);
-//     text.innerHTML = data.text;
-// }
+function changeHtml(data) {
+    let text = document.getElementById("text");
+    let img = document.getElementById("img");
+    img.setAttribute("img", data.imgSrc);
+    text.innerHTML = data.text;
+}
 
 
 
