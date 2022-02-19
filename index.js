@@ -11,7 +11,7 @@ function randomIndex(size) {
 }
 
 async function getData() {
-    const requestURL = 'https://github.com/Skriste/jason/blob/master/data.jsn';
+    const requestURL = 'https://github.com/Skriste/jason/blob/master/data.json';
     const request = new Request(requestURL);
     const response = await fetch(request);
     const JSON = await response.json();
