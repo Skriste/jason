@@ -1,9 +1,11 @@
-function changeHtml(data) {
-    let text = document.getElementById("text");
-    let img = document.getElementById("img");
-    img.setAttribute("src", data.imgSrc);
-    text.innerHTML = data.text;
-}
+// function changeHtml(data) {
+//     let text = document.getElementById("text");
+//     let img = document.getElementById("imgSrc");
+//     img.setAttribute("imgSrc", data.imgSrc);
+//     text.innerHTML = data.text;
+// }
+
+
 
 function randomIndex(size) {
     let randInd = Math.floor(Math.random() * size);
